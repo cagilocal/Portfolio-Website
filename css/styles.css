@@ -1,0 +1,341 @@
+/*Font Families
+
+--Headings--
+font-family: 'Montserrat', sans-serif;
+
+--Body Text--
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif;
+*/
+
+* { 
+  box-sizing: border-box
+!important;
+}
+
+html {
+  font-size: 120%;
+}
+
+body {
+    background-color: #fffcfb;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+/*Heading Fonts*/
+h1, h2, h3, h4 {
+    font-family: 'Montserrat', Verdana, sans-serif;
+  }
+
+h1 {
+    color: #442217;
+    font-size: 36px;
+    font-weight: bold;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    text-align: center;
+    font-family: 'Montserrat', Verdana, sans-serif;
+}
+
+h2 {
+    color: #D6952A;
+    font-size: 2rem;
+    font-weight: bold;
+    padding-top: 1.25rem;
+}
+
+h3 {
+    color: #974415;
+    font-size: 1.75rem;
+    font-weight: bold;
+    padding-top: 1rem;
+}
+
+h4 {
+    color: #D29A89;
+    text-decoration: underline;
+    font-size: 1rem;
+    font-weight: bold;
+    padding-top: 1rem;
+}
+
+p {
+    line-height: 1.4;
+    color: #212121;
+    font-family: 'Roboto', Georgia, sans-serif;
+    font-family: 'Roboto Slab', Georgia, serif;    
+    font-size: 1rem;
+}
+
+ul li {
+    line-height: 1.4;
+    color: #212121;
+    font-family: 'Roboto', Georgia, sans-serif;
+    font-family: 'Roboto Slab', Georgia, serif;
+    font-size: 1rem;
+}
+
+img {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img, object {
+    max-width: 100%;
+    height: auto;
+}
+
+.services i {
+  font-size: 40px;
+}
+
+.services h4 {
+  padding-top: 10px;
+}
+
+/*Header Section*/
+.logo {
+    display: block;
+    margin: 0 auto;
+    margin-top: 1rem;
+    margin-bottom: -1rem;
+}
+
+.menu-icon  {
+    display: block;
+    text-align: right;
+
+    color: #D6952A;
+}
+
+.site-title  {
+    font-family: 'Montserrat', Verdana, sans-serif;
+    color: #442217;
+    font-size: 2rem;
+}
+
+/*Nav Menu*/
+nav {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+   display: block;
+   line-height: 3rem;
+   margin-bottom: 1rem;
+}
+
+nav ul li a {
+    padding: 1rem;
+    background-color: #D6952A;
+    color: white;
+    text-decoration: none;
+ }
+
+
+main>section {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.intro {
+  margin-bottom: 3rem;
+}
+
+ .intro picture img {
+   /* center the img */
+   display: block;
+   margin: 5rem auto 2rem;
+   /* -- */
+
+   max-width: 18rem;
+   border-radius: 50%;
+   border: 10px solid #D6952A;
+ }
+
+ #workexp h2,
+ #education h2 {
+  margin: 0;
+  text-align: center;
+  padding: 5rem;
+  font-size: 2.5rem;
+  text-shadow: 2px 2px 0 white;
+  background-size: cover;
+}
+
+#workexp h2 {
+  background-color: #212121;
+  background-image: url('../img/work.jpg'); 
+  background-attachment: fixed;
+}
+
+#education h2 {
+  background-color: #212121;
+  background-image: url('../img/education.jpg');
+  background-attachment: fixed;
+ }
+
+/* About Page*/ 
+.box {
+  background: #442217;
+  width: 9.2rem;
+  height: 4rem;
+ }
+
+ .about h2 {
+  position: relative;
+  bottom: 5.5rem;
+  left: 1rem;
+  text-shadow: 1px 1px 0 white;
+ }
+
+ .about p {
+  margin-top: -5rem;
+ }
+
+
+
+ .back-to-top {
+   position: fixed;
+   right: 2rem;
+   bottom: 2rem;
+   color: #D6952A;
+   box-shadow: 4px 4px ;
+   background: #f2f2f2;
+   padding: 1.25rem 0.25rem;
+   z-index: 9999;
+ }
+
+ .footer {
+  padding: 0 0 1rem 0;
+}
+
+.footer a {
+  color: #000;
+  
+}
+
+
+ /* Photography Page */
+
+ .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* Responsive layout - hide map when screen size is less than 480px */
+  @media screen and (max-width: 480px) {
+    .column-map {
+      display: none
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Style inputs */
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #D6952A;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Style the container/contact section */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+ @media only screen and (min-width: 640px) {
+   nav ul li {
+        display: inline;
+   }
+}
+
+@media screen and (min-width:768px) {
+  .about img.float-left {
+    float: left;
+    max-width: 14rem;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+   }
+}
+
+@media screen and (min-width:768px) {
+  .about img.float-right {
+    float: right;
+    max-width: 14rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+   }
+}
