@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- tells browser which character set to use -->
+        <meta charset="UTF-8">
+
+        <!-- Meta tag for website description -->
+        <meta name="description" content="Cagil Ocal's Resume">
+
+        <!-- Force page to refresh every 60 seconds -->
+        <!-- <meta http-equiv="refresh" content="60">  -->
+
+        <!-- Meta tag for mobile responsiveness-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Normalize CSS -->
+        <link rel="stylesheet" href="../css/">
+
+        <!-- FontAwesome -->
+        <script src="https://kit.fontawesome.com/923b9a3f39.js" crossorigin="anonymous"></script>
+
+        <!-- MMenu.js Plugin CSS -->
+        <link rel="stylesheet" href="../css/mmenu.css">
+
+        <!-- Splide Carousel/Slider CSS-->
+        <link rel="stylesheet" href="../css/splide.min.css">
+
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Roboto+Slab:wght@300;400;500;700&family=Roboto:wght@100&display=swap" rel="stylesheet">
+
+        <!-- Own Style Sheet -->
+        <link rel="stylesheet" href="../css/styles.css">
+
+        <title>About Me</title>
+    </head>
+
+    <body id="body">
+        <div id="page">
+            <div id="header">
+                <header>
+                    <img class="logo" src="../img/logo.png" alt="">
+                    <h1 class="site-title">Cagil Ocal</h1>
+                    <a class="menu-icon" href="#menu">
+                        <i class="fa-solid fa-bars fa-2x"></i>
+                    </a>
+
+                    <nav id="menu">
+                        <ul>
+                             <li>
+                                <a class="Selected" href="../index.html">Home</a>
+                            </li>
+                            <li>
+                                <a href="../html/portfolio.html">Portfolio</a>
+
+                            </li>
+                             <li>
+                                <a href="../html/about.html">About Me</a>
+                            </li>
+                            <li>
+                                <a href="../html/contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </header>
+            </div>
+
+        <main>
+            <!-- Intro Section: Include image, name, heading and some text about me -->
+            <section>
+                <section class="intro">
+                <picture>
+                    <!-- File for tablet+ -->
+                    <source media="(min-width: 600px)" srcset="../img/cagil.jpeg">
+                    <!-- File for Mobile -->
+                    <img src="../img/cagil-mobile.jpg" alt="Portrait of Cagil Ocal">
+                </picture>
+
+                <hgroup>
+                    <h2>Communications Strategist</h2>
+                    <p>Strategist and a researcher with passion to question. Curious about human behaviour,
+                        generating insight through curiosity and research, simplifying the pathway from the truth to the idea.</p>
+                </hgroup>
+            <section>
+
+            <section class="about">
+                <div class="box"></div>
+            <h2>About Me</h2>
+            <p><img class="float-left" src="../img/portfolio/p1.jpg" alt=""> After graduating from Law faculty, I decided to study at the faculty of communication and graduated from Istanbul University with a BA in Advertising & PR.
+               Throughout the years, my passion to learn more and advance myself has escalated my curiosity in all of the fields of communication & advertising.
+               Working with many foreign and domestic brands, I have gained experience in various industries and areas from marketing, event planning in building
+               materials industry, strategy in ad agencies to digital communications in non-profit organizations.
+            </p>
+            </section>
+        </main>
+
+
+        <footer class="footer" role="contentinfo">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-6">
+                  <p class="mb-1">&copy; All Rights Reserved. © Copyright 2022</p>
+                </div>
+              </div>
+            </div>
+          </footer>
+
+        <a href="#body">
+        <i class="fa-solid fa-chevron-up fa-2xl back-to-top"></i>
+        </a>
+        
+        </div><!-- /#page -->
+
+        <!-- Load Mmenu.js -->
+        <script src="../js/mmenu.js"></script>
+
+        <!-- Initialize Mmenu.js -->
+        <script>
+            document.addEventListener(
+                "DOMContentLoaded", () => {
+                    new Mmenu( "#menu" , {
+                    // options
+                    'slidingSubmenus': false
+                });
+                }
+            );
+        </script>
+
+        <!-- Load Splide.js -->
+        <script src="../js/splide.min.js"></script>
+
+        <!-- Initialize Splide.js -->
+        <script>
+            document.addEventListener( 'DOMContentLoaded', function() {
+              var splide = new Splide( '#hero-img-slider' );
+              splide.mount();
+            } );
+          </script>
+        
+    </body>
+</html>

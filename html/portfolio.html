@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- tells browser which character set to use -->
+        <meta charset="UTF-8">
+
+        <!-- Meta tag for website description -->
+        <meta name="description" content="Cagil Ocal's Resume">
+
+        <!-- Force page to refresh every 60 seconds -->
+        <!-- <meta http-equiv="refresh" content="60">  -->
+
+        <!-- Meta tag for mobile responsiveness-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Normalize CSS -->
+        <link rel="stylesheet" href="../css/normalize.css">
+
+        <!-- FontAwesome -->
+        <script src="https://kit.fontawesome.com/923b9a3f39.js" crossorigin="anonymous"></script>
+
+        <!-- MMenu.js Plugin CSS -->
+        <link rel="stylesheet" href="../css/mmenu.css">
+
+        <!-- Halkabox CSS -->
+        <link rel="stylesheet" href="../css/halkaBox.min.css">
+
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Roboto+Slab:wght@300;400;500;700&family=Roboto:wght@100&display=swap" rel="stylesheet">
+
+        <!-- Own Style Sheet -->
+        <link rel="stylesheet" href="../css/styles.css">
+
+        <title>About Me</title>
+    </head>
+
+    <body id="body">
+        <div id="page">
+            <div id="header">
+                <header>
+                    <img class="logo" src="../img/logo.png" alt="">
+                    <h1 class="site-title">Cagil Ocal</h1>
+                    <a class="menu-icon" href="#menu">
+                        <i class="fa-solid fa-bars fa-2x"></i>
+                    </a>
+
+                    <nav id="menu">
+                        <ul>
+                             <li>
+                                <a class="Selected" href="../index.html">Home</a>
+                            </li>
+                            <li>
+                                <a href="../html/portfolio.html">Portfolio</a>
+                            </li>
+                             <li>
+                                <a href="../html/about.html">About Me</a>
+                            </li>
+                            <li>
+                                <a href="../html/contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </header>
+            </div>
+
+            <h1>Portfolio</h1>
+
+            <div class="row">
+                <!-- Column #1 -->
+                <div class="column">
+
+                    <a href="../img/portfolio/p1.jpg"
+                    class="gallery1" title="Product Photography"> 
+                        <img src="../img/portfolio/p1.jpg" alt="Product Photography">
+                    </a>
+
+                    <a href="../img/portfolio/p2.jpg"
+                    class="gallery1" title="Product Photography"> 
+                        <img src="../img/portfolio/p2.jpg" alt="Product Photography">
+                    </a>
+                </div>
+
+                <!-- Column #2 -->
+                <div class="column">
+                    <a href="../img/portfolio/p3.jpg"class="gallery1" title="Product Photography"> 
+                        <img src="../img/portfolio/p3.jpg" alt="Product Photography">
+                    </a>
+
+                    <a href="../img/portfolio/p4.jpg"class="gallery1" title="Product Photography"> 
+                        <img src="../img/portfolio/p4.jpg" alt="Product Photography">
+                    </a>
+                </div>
+
+                <!-- Column #3 -->
+                <div class="column">
+                    <a href="../img/portfolio/p5.jpg"class="gallery1" title="Product Photography"> 
+                        <img src="../img/portfolio/p5.jpg" alt="Product Photography">
+                    </a>
+
+                    <a href="../img/portfolio/p6.jpg"class="gallery1" title="Product Photography"> 
+                        <img src="../img/portfolio/p6.jpg" alt="Product Photography">
+                    </a>
+                </div>
+
+                <div class="column">
+                    <a href="../img/portfolio/p7.jpg"class="gallery1" title="Product Photography"> 
+                        <img src="../img/portfolio/p7.jpg" alt="Product Photography">
+                    </a>
+
+                    <a href="../img/portfolio/p8.jpg"class="gallery1" title="Poster Design"> 
+                        <img src="../img/portfolio/p8.jpg" alt="Poster Design">
+                    </a>
+                </div>
+
+                <div class="column">
+                    <a href="../img/portfolio/p9.jpg"class="gallery1" title="Magazine Design"> 
+                        <img src="../img/portfolio/p9.jpg" alt="Magazine Design">
+                    </a>
+
+                    <a href="../img/portfolio/p10.jpg"class="gallery1" title="UX/UI"> 
+                        <img src="../img/portfolio/p10.jpg" alt="UX/UI">
+                    </a>
+                </div>
+
+                <div class="column">
+                    <a href="../img/portfolio/p11.jpg"class="gallery1" title="UX/UI"> 
+                        <img src="../img/portfolio/p11.jpg" alt="UX/UI">
+                    </a>
+                    
+                    <a href="../img/portfolio/p12.jpg"class="gallery1" title="UX/UI"> 
+                        <img src="../img/portfolio/p12.jpg" alt="UX/UI">
+                    </a>
+                </div>
+
+                <div class="column">
+                    <a href="../img/portfolio/p13.jpg"class="gallery1" title="UX/UI"> 
+                        <img src="../img/portfolio/p13.jpg" alt="UX/UI">
+                    </a>
+
+                </div>
+            </div>
+
+
+            <footer class="footer" role="contentinfo">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <p class="mb-1">&copy; All Rights Reserved. © Copyright 2022</p>
+                    </div>
+                  </div>
+                </div>
+              </footer>
+
+        <a href="#body">
+            <i class="fa-solid fa-chevron-up fa-2xl back-to-top"></i>
+        </a>
+    
+        </div><!-- /#page -->
+
+        <!-- Load Mmenu.js -->
+        <script src="../js/mmenu.js"></script>
+
+        <!-- Initialize Mmenu.js -->
+        <script>
+            document.addEventListener(
+                "DOMContentLoaded", () => {
+                    new Mmenu( "#menu" , {
+                    // options
+                    'slidingSubmenus': false
+                });
+                }
+            );
+        </script>
+        
+        <!-- Load Halkabox.js -->
+        <script src="../css/halkaBox.min.css"></script>
+
+        <!-- Initialize Halkabox.js -->
+        <script>
+           halkaBox.run("gallery1");
+        </script>
+    </body>
+</html>
